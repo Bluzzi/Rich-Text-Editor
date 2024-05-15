@@ -7,12 +7,19 @@
     "lint:fix": "next lint"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.13",
     "@tiptap/extension-bubble-menu": "^2.4.0",
-    "@tiptap/extension-list-keymap": "^2.4.0",
+    "@tiptap/extension-code-block-lowlight": "^2.4.0",
+    "@tiptap/extension-task-item": "^2.4.0",
+    "@tiptap/extension-task-list": "^2.4.0",
     "@tiptap/extension-typography": "^2.4.0",
     "@tiptap/react": "^2.4.0",
     "@tiptap/starter-kit": "^2.4.0",
     "clsx": "^2.1.1",
+    "dedent": "^1.5.3",
+    "highlight.js": "^11.9.0",
+    "lowlight": "^3.1.0",
+    "lucide-react": "^0.378.0",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18"
@@ -32,6 +39,9 @@
     "extends": [
       "next/core-web-vitals",
       "@bluzzi"
-    ]
+    ],
+    "rules": {
+      "max-len": "off"
+    }
   }
 }
