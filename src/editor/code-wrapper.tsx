@@ -23,7 +23,7 @@ export const EditorCodeWrapper: Component<{
         ))}
       </select>
 
-      <pre className="bg-black">
+      <pre className="bg-black font-mono">
         <NodeViewContent as="code" />
       </pre>
     </NodeViewWrapper>
