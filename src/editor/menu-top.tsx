@@ -14,7 +14,7 @@ export const EditorMenuTop: Component<{ editor: Editor }> = ({ editor }) => {
   const Divider: Component = () => <div className="bg-white/25 h-5 ml-2 mr-3 w-[1px]" />;
 
   return (
-    <div className="flex items-center flex-wrap flex-auto p-1 border-b-2 border-black bg-black">
+    <div className="flex items-center flex-wrap p-1 border-b-2 border-black bg-black">
       <EditorMenuItem title="Bold" icon={<BoldIcon />} action={() => editor.chain().focus().toggleBold().run()} />
       <EditorMenuItem title="Italic" icon={<ItalicIcon />} action={() => editor.chain().focus().toggleItalic().run()} />
       <EditorMenuItem title="Strike" icon={<StrikethroughIcon />} action={() => editor.chain().focus().toggleStrike().run()} />

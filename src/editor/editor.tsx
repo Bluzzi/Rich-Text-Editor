@@ -31,7 +31,7 @@ export const Editor: Component<{ content: string; editable: boolean }> = ({ cont
   }, [editable, content]);
 
   return (
-    <div className="bg-white border-2 border-black rounded-md overflow-hidden flex flex-col">
+    <div className="bg-white border-2 border-black sm:rounded-md overflow-hidden flex flex-col">
       {editor && editable && (
         <>
           <EditorMenuTop editor={editor} />

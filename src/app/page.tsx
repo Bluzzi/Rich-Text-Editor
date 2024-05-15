@@ -40,7 +40,7 @@ const Page: Component = () => {
   `.replaceAll("$", " ");
 
   return (
-    <main className="min-h-screen py-16 flex items-center justify-center bg-white text-black">
+    <main className="min-h-screen sm:py-16 sm:p-4 flex sm:items-center justify-center bg-white text-black">
       <Editor content={content} editable />
     </main>
   );
