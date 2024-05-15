@@ -1,2 +1,2 @@
 # Rich-Text-Editor
-Integrating the TipTap rich text editor with NextJS.
+Preview of the TipTab rich text editor implemented in the NextJS framework.

@@ -43,5 +43,10 @@
     "rules": {
       "max-len": "off"
     }
+  },
+  "postcss": {
+    "plugins": {
+      "tailwindcss": {}
+    }
   }
 }
